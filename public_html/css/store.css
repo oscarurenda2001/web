@@ -1,0 +1,233 @@
+#layout 
+{
+  
+    column-gap: 0px;
+    
+}
+
+a:visited{
+  color: #FF4742
+}
+
+a
+{
+  color: #FA6B66;
+}
+
+.topnav *
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #e9e9e9;
+}
+
+.topnav
+{
+    background-color: #24040C;
+    padding: 10px;
+    border: 1px solid #24040C;
+    border-radius: 5px;
+    /*3d0814*/
+}
+
+body
+{
+    background-color: #0D0606;
+    color: white; /* BORRAR */
+}
+
+.formDiv
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #e9e9e9;
+    size: 11px;
+}
+
+.opcionsCat
+{
+    text-transform: capitalize;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+
+.grid-item, .prod {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    height: px;
+  }
+
+.grid-container * 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.preu
+{
+    background-color: green;
+}
+
+.grid-item > h3 
+{
+    text-transform: capitalize;
+}
+
+.login{
+    position:absolute;
+    top: -1px;
+    right: 0;
+    margin:15px;
+}
+.button-24 {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FFFFFF;
+  background: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.dropbtn {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  position:absolute;
+  top: 100px;
+  right: 0;
+  margin:15px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #FF4742;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position:absolute;
+    top: -116px;
+    right: 150px;
+    margin:15px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: relative;
+    top: 150px;
+    right:15px ;
+    background-color: #FF4742;
+    min-width: 1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  #detalls
+  {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    grid-template-areas: 
+        'img nom'
+        'img desc'
+        'img preu'
+        'img val';
+  }
+
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    width: 48%; /* Adjust the width as needed */
+}
+
+.right-nav {
+    text-align: right;
+}
+
+#searchInput, .boto {
+    color: black;
+}
+
+
+
+*, .formulari{
+  font-family: Arial, Helvetica, sans-serif;
+}
